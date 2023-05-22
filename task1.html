@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>task1</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <header>
+            <h2>It`s a form for adding the teacher</h2>
+        </header>
+        <form>
+            <h3>Enter information about you</h3>
+            <section>
+                <label for="full-name">Enter your full name:</label>
+                <input id="full-name" name="full-name" type="text" required/>
+            </section>
+            <section>
+                <label>Choose your sex:</label>
+                <input id="sex-man" name="sex" type="radio" value="man" required>
+                <label for="sex-man">Man</label>
+                <input id="sex-woman" name="sex" type="radio" value="woman" required>
+                <label for="sex-woman">Women</label>
+            </section>
+            <section>
+                <label for="birthday">Choose your birthday date:</label>
+                <input id="birthday" name="birthday" type="date" required>
+            </section>
+            <section>
+                <label for="email">Enter your email:</label>
+                <input id="email" name="email" type="email" required>
+            </section>
+            <section>
+                <label for="phone-number">Enter your phone number:</label>
+                <input id="phone-number" name="phone-number" type="tel" required>
+            </section>
+            <section>
+                <label for="preferred-color">Choose tour preferred background color:</label>
+                <input id="preferred-color" name="preferred-color" type="color" required>
+            </section>
+            <section>
+                <label for="country">Enter your country:</label>
+                <input id="country" name="country" type="text" required>
+            </section>
+            <section>
+                <label for="city">Enter your city:</label>
+                <input id="city" name="city" type="text" required>
+            </section>
+            <section>
+                <label for="comment">Enter your comment:</label>
+                <textarea id="comment" name="comment"></textarea>
+            </section>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
